@@ -1,0 +1,14 @@
+import the random module
+set target to a number between 0 and 65535 using the randint function
+set flag to 0
+while flag is 0
+    ask the user to input an integer between 0 and 65535 and store it in a variable called guess.
+    check if guess is lower then target if it is
+        print to the terminal that the guess is lower then the target
+    check if guess is higher then target if it is
+        print to the terminal that the guess is higher then the target
+    check if guess is = to target if it is
+        print to the terminal that the user has guessed the correct answer
+        set flag to 1
+    The program will repeat from line 4 until the user has guessed the answer and the flag is set to 1 breaking the loop
+exit the program
